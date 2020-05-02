@@ -15,6 +15,7 @@ Plug 'lepture/vim-jinja'
 Plug 'stephpy/vim-yaml'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'preservim/nerdcommenter'
+Plug 'morhetz/gruvbox'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -49,3 +50,5 @@ let g:lightline = {
     \ }
 
 autocmd BufNewFile,BufRead *.jf set syntax=groovy
+colorscheme gruvbox
+set termguicolors
