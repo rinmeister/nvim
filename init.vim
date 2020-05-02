@@ -30,7 +30,6 @@ map <C-o> :NERDTreeToggle<CR>
 map <C-i> :IndentLinesToggle<CR>
 nnoremap <leader>p :call TogglePasteOptions()<cr>
 
-colorscheme industry
 set tabstop=4
 set shiftwidth=4
 set expandtab
