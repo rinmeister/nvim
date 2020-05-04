@@ -6,6 +6,8 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do':'./install --all'}
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/vim-gitbranch'
@@ -16,6 +18,7 @@ Plug 'stephpy/vim-yaml'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'preservim/nerdcommenter'
 Plug 'morhetz/gruvbox'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
