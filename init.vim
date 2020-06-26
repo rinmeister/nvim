@@ -18,6 +18,7 @@ Plug 'stephpy/vim-yaml'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'preservim/nerdcommenter'
 Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -32,6 +33,7 @@ endfunction
 map <C-o> :NERDTreeToggle<CR>
 map <C-i> :IndentLinesToggle<CR>
 nnoremap <leader>p :call TogglePasteOptions()<cr>
+nnoremap <leader>f :Files --hidden<cr>
 
 set tabstop=4
 set shiftwidth=4
