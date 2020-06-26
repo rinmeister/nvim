@@ -19,6 +19,9 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'preservim/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -52,6 +55,7 @@ let g:lightline = {
     \   'gitbranch': 'gitbranch#name'
     \ },
     \ }
+let NERDTreeShowHidden = 1
 
 autocmd BufNewFile,BufRead *.jf set syntax=groovy
 colorscheme gruvbox
